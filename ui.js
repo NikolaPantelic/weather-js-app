@@ -14,9 +14,9 @@ class Ui {
         this.description.textContent = weather.weather[0].description;
         this.temperature.textContent = `Temperature : ${weather.main.temp.toFixed()} °C`;
         this.humidity.textContent = `Relative Humidity: ${weather.main.humidity} %`;
-        this.tempmax.textContent = `Max Temp : ${weather.main.temp_max.toFixed()} °C`;
-        this.tempmin.textContent = `Min Temp : ${weather.main.temp_min.toFixed()} °C`;
+        this.maxtemperature.textContent = `Max Temp : ${weather.main.temp_max.toFixed()} °C`;
+        this.mintemperature.textContent = `Min Temp : ${weather.main.temp_min.toFixed()} °C`;
         this.feelslike.textContent = `Feels Like : ${weather.main.feels_like.toFixed()} °C`;
-        this.wind.textContent = `Wind speed : ${weather.wind.speed} m/s`;
+        this.windspeed.textContent = `Wind speed : ${weather.wind.speed} m/s`;
     }
 }
