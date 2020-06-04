@@ -1,3 +1,7 @@
+// init storage object
+
+
+
 // init weather object
 
 const weather = new Weather("Poznan", "Poland");
