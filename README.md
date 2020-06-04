@@ -7,16 +7,17 @@ Weather-js-app is project which is part of Udemy courses.
 It is app which fetch web data and shows curent weather conditions for selected location.Weather-js-app stores location in Local Storage and giving us last location even after the page has been refreshed.
 
 Weather-js-app is made from three objects: 
--UI object
--Storage object
--Weather object
+* UI object
+* Storage object
+* Weather object
 
 All together build with constructor and used in app.js file
 
 ## Built With
 
-* [React](https://reactjs.org/) - React: A JavaScript library for building user interfaces 
-* [CSS Modules](https://css-tricks.com/css-modules-part-1-need/) - CSS Modules: CSS in which all class names are scoped locally by default
+* [HTML](http://www.html.com) - HTML: HyperText Markup Language
+* [Java Script](https://www.javascript.com/) - JavaScript: Programming Language 
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework for developing responsive and mobile-first websites
 
 
 ## How to start
