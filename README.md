@@ -24,12 +24,6 @@ All together build with constructor and used in app.js file
 To start development follow this instruction:
 
 * `clone` this repo
-* `npm install` all necessary npm packages
-
-#### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
