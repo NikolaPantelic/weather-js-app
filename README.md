@@ -4,7 +4,8 @@ Weather-js-app is app which fetch web data and shows curent weather conditions f
 ## Description
 
 Weather-js-app is project which is part of Udemy courses.
-It is app which fetch web data and shows curent weather conditions for selected location.Weather-js-app stores location in Local Storage and giving us last location even after the page has been refreshed.
+It is app which fetch web data and shows curent weather conditions for selected location.Weather-js-app stores location in Local Storage and giving us last location even after the page has been refreshed.Using also new ES6 features async and await.
+
 
 Weather-js-app is made from three objects: 
 * UI object
