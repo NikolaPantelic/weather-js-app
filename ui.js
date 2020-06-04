@@ -1,5 +1,5 @@
 class Ui {
-    constructor(){
+    constructor() {
         this.location = document.getElementById("w-location");
         this.description = document.getElementById("w-desc");
         this.temperature = document.getElementById("w-temp");
@@ -9,7 +9,8 @@ class Ui {
         this.feelslike = document.getElementById("w-feelslike");
         this.windspeed = document.getElementById("w-wind");
     }
-    paint(weather){
+
+    paint(weather) {
         this.location.textContent = weather.name;
         this.description.textContent = weather.weather[0].description;
         this.temperature.textContent = `Temperature : ${weather.main.temp.toFixed()} °C`;
